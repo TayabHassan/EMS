@@ -83,7 +83,7 @@ def display_event_details(events, event_name):
 def main():
     events={}
     while True:
-        print("/n1.Add event/n2.edit event/n3.Delete event/n4.display event names/n5.display event detail/n6.exit")
+        print("\n1.Add event\n2.edit event\n3.Delete event\n4.display event names\n5.display event detail\n6.exit")
         choice=input("enter your choice:")
         if choice=="1":
             add_event(events)
@@ -101,4 +101,4 @@ def main():
         elif choice=="6":
             break
 if __name__== "__main__":
-    main()
+    main() 
